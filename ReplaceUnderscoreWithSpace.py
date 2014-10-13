@@ -12,8 +12,11 @@ def ReplaceUnderscoreWithSpace(string):
 		i += 1
 	return  ''.join(listOfString)
 
-print ReplaceUnderscoreWithSpace("_foo_bar_")
-print ReplaceUnderscoreWithSpace("foo_bar_")
-print ReplaceUnderscoreWithSpace("_foo_bar")
-print ReplaceUnderscoreWithSpace("_")
+def main():
+	print ReplaceUnderscoreWithSpace("_foo_bar_")
+	print ReplaceUnderscoreWithSpace("foo_bar_")
+	print ReplaceUnderscoreWithSpace("_foo_bar")
+	print ReplaceUnderscoreWithSpace("_")
 
+if __name__ == '__main__':
+	main()

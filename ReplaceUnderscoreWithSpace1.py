@@ -3,12 +3,12 @@ import sys
 
 def ReplaceUnderscoreWithSpace(string):
 	length = len(string)
-	if(length == 1):
+	if (length == 1):
 		return string
 	listOfString  = list(string)
 	i = 1
-	while(i < length -1 ):
-		if(listOfString[i] == "_"):
+	while (i < length -1 ):
+		if (listOfString[i] == "_"):
 			listOfString[i] = " "
 		i += 1
 	return  ''.join(listOfString)
